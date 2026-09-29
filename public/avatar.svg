@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="头像占位图">
+  <defs>
+    <radialGradient id="paper-light" cx="36%" cy="26%" r="78%">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#F1F1EE" />
+    </radialGradient>
+  </defs>
+  <rect width="240" height="240" fill="url(#paper-light)" />
+  <g fill="none" stroke="#1C1C1E" stroke-opacity="0.07" stroke-width="0.8">
+    <circle cx="120" cy="118" r="46" />
+    <circle cx="120" cy="118" r="72" />
+    <circle cx="120" cy="118" r="98" />
+  </g>
+  <g fill="none" stroke="#1C1C1E" stroke-opacity="0.16" stroke-width="0.9" stroke-linecap="round">
+    <circle cx="120" cy="102" r="30" />
+    <path d="M76 180c12-30 27-46 44-46s32 16 44 46" />
+  </g>
+  <circle cx="120" cy="102" r="5" fill="#1C1C1E" />
+</svg>
