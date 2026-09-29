@@ -42,7 +42,7 @@ onBeforeUnmount(() => window.clearTimeout(copyTimer))
         </div> -->
 
         <div class="parallax-text">
-          <div class="grid gap-x-6 gap-y-5 md:grid-cols-3" data-reveal>
+          <div class="grid gap-x-6 gap-y-5 md:grid-cols-2" data-reveal>
             <div>
               <p class="section-eyebrow text-sm">{{ profile.title }}</p>
               <h1 class="mt-2 text-3xl font-medium leading-tight md:text-4xl">{{ profile.name }}</h1>
@@ -50,14 +50,14 @@ onBeforeUnmount(() => window.clearTimeout(copyTimer))
 
             <p class="text-muted md:self-end md:justify-self-end">{{ profile.meta }}</p>
 
-            <button
+            <!-- <button
               type="button"
               class="ink-button min-w-0 px-6 py-2 text-sm"
               aria-label="复制手机号"
               @click="copyContact('手机号', profile.phone)"
             >
               {{ profile.phone }}
-            </button>
+            </button> -->
 
             <button
               type="button"
